@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
 body {
   width: 100vw;
   height: 100vh;
@@ -16,53 +22,60 @@ body {
 .topnav {
     display: flex;
     align-items: center;
-    background-color: #ffddf8;
+    background-color: #000000;
     overflow: hidden;
+    margin: 0 5px;
   }
   .topnav a {
     float: left;
-    color: #ff008c;
+    color: #ffffff;
+    font-weight: 500;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    transition: all 0.3s ease;
+    letter-spacing: 1px;
   }
   .topnav a:hover {
     background-color: #ffffff;
     color: black;
   }
   .topnav a.active {
-    background-color: #e988ec;
-    color: white;
+    background-color: #d9ff00;
+    color: rgb(0, 0, 0);
   }
 
   #title {
+    font-weight: bold;
     font-size: 30px;
     flex: 1;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(224, 36, 196);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(234, 228, 118);
   }
   .circular--square { border-radius: 50%; }
   .circular--square { border-top-left-radius: 50% 50%; border-top-right-radius: 50% 50%; border-bottom-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%; }
 
   .image {
-    width: 100px;
+    width: 200px;
   }
 .button {
-  color: rgb(225, 43, 189);
+  padding: 5px;
+  font-size: large;
+  color: rgb(255, 255, 255);
   font-weight: bold;
-  background-color: rgb(247, 196, 230);
+  background-color: rgb(0, 0, 0);
   border-color: transparent;
-  border-radius: 25px;
+  border-radius: 10px;
   width: fit-content;
 }
 
 .button:hover {
-  background-color: white;
-  color: black;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 .fontz{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
 }
 .Bunny{
  display: flex;
