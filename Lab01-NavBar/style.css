@@ -47,11 +47,12 @@ body {
   }
 
   #title {
+    padding-left: 30px;
     font-weight: bold;
     font-size: 30px;
     flex: 1;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(234, 228, 118);
+    color: rgb(255, 245, 52);
   }
   .circular--square { border-radius: 50%; }
   .circular--square { border-top-left-radius: 50% 50%; border-top-right-radius: 50% 50%; border-bottom-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%; }
